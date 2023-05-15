@@ -1,0 +1,22 @@
+1 .Criar uma lista com os códigos executados para a criação, edição e manipulação do repositório no Git/GitHub.
+Git init: cria um novo repositório;
+git add nome_do_arquivo: adiciona um arquivo ao repositório;
+git commit -m “descrição breve das mudanças”: confirma as mudanças no arquivo adicionado;
+git remote add origin url_do_repositório: conecta o repositório local ao repositório remoto no github;
+git push -u origin nome_do_branch: envia o código do repositório local para o repositório remoto no github;
+git clone url_do_repositório: clona um repositório existente do github para sua máquina;
+git branch nome_do_branch: cria um novo branch;
+git checkout nome_do_branch: muda para um branch específico;
+git merge nome_do_branch: junta as mudanças de um branch com o branch principal;
+git status: checa o status do repositório;
+git log: visualiza o histórico de commits;
+git checkout nome_do_arquivo: desfaz as mudanças em um arquivo que ainda não foi confirmado;
+git revert nome_do_arquivo: desfaz as mudanças em um arquivo que já foi confirmado;
+3. Pesquisar e adicionar mais cinco (5) códigos que existem para o Git/GitHub que ainda não foram executados em sala de aula.
+git diff commit 1 commit 2: visualiza as diferenças entre dois commits específicos;
+git tag -a nome_do_release -m “descrição breve do release”
+git push origin nome_do_release: cria um novo release para o projeto no GitHub
+git branch -r: visualiza os branches remotos disponíveis no repositório;
+git rm nome_do_arquivo: remove um arquivo do repositório;
+git revert <código do commit>: cria um novo commit que desfaz as mudanças feitas no commit especificado e adiciona-o ao histórico do repositório.
+
